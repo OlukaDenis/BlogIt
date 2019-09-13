@@ -7,5 +7,7 @@ Rails.application.routes.draw do
   get 'about' => 'pages#about', as: 'about'
 
   # Resource route (maps the HTTP verbs into controller actions)
-  resources :posts
+  resources :posts do
+      resources :comments #comments are found inside the post
+    end
 end
