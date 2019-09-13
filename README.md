@@ -1,7 +1,5 @@
 # MyBlog
-
 This is a simple blog application developed with Ruby on Rails
-[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 
 ## Requirements
 - An editor e.g. [VS Code](https://code.visualstudio.com/download) - Apowerful editor
